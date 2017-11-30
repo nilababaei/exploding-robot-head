@@ -17,30 +17,27 @@ body {
   background-color: #2b3851;
   display: block;
   width: 100%;
-  position: relative;
+  text-align: center;
 }
 
 .robot {
+  display: inline-block;
   width: 320px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
 }
 
 .robot-body {
   width: 320px;
+
 }
 
 .robot-brain {
   width: 46px;
+  position: absolute;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
-}
-
-.robot-head-right {
-  margin-left: 3em;
+  position: absolute;
 }
