@@ -28,16 +28,20 @@ body {
 
 .robot-body {
   width: 320px;
-
 }
 
 .robot-brain {
   width: 46px;
   position: absolute;
+  right: 8.6em;
+  margin-top: -.8em;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
   position: absolute;
+
+  left: 5.7em;
+  margin-top: -14.3em;
 }
