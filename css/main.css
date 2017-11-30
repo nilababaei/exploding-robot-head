@@ -34,7 +34,7 @@ body {
   width: 46px;
   position: absolute;
   right: 8.6em;
-  margin-top: -.8em;
+  top: -.8em;
 }
 
 .robot-head-right,
@@ -43,5 +43,13 @@ body {
   position: absolute;
 
   left: 5.7em;
-  margin-top: -14.3em;
+  top: -2.3em;
+}
+
+.robot-head-right {
+  left: 10em;
+}
+
+.robot-head-left {
+  right: 11em;
 }
