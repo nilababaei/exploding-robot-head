@@ -44,7 +44,6 @@ body {
   width: 125px;
   position: absolute;
 
-  left: 5.7em;
   top: -2.3em;
 }
 
@@ -53,5 +52,13 @@ body {
 }
 
 .robot-head-left {
-  left: -.1em;
+  right: 10em;
+}
+
+.robot-head-right:hover {
+  left: 12em;
+}
+
+.robot-head-left:hover {
+  right: 12em;
 }
